@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+.quote-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 50px;
+    padding: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.quote a{
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+
+    border-radius: 10px;
+    color: rgb(88, 88, 88);
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
